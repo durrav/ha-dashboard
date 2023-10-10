@@ -1,3 +1,5 @@
+# This will create a sensor called sensor.media_players_active.
+
 - platform: template
   sensors:
     media_players_active:
