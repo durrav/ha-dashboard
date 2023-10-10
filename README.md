@@ -11,6 +11,7 @@ You will also need <a href="https://github.com/ofekashery/vertical-stack-in-card
 - Room card
 - Lock card
 - Vacuum card
+- Greeting card
 
 
 Room card:<br>
@@ -22,11 +23,17 @@ Lock card:<br>
 Vacuuum card:<br>
 ![image](https://github.com/durrav/ha-dashboard/assets/58232568/75ed1463-f2a4-4251-abbc-8cf545c7a50d)
 
+Greeting card:<br>
+![image](https://github.com/durrav/ha-dashboard/assets/58232568/1d632b4e-056e-4143-b259-9a0e04bf6bfa)
+
 <br>
 
 <h2>Template sensors:</h2><br>
 
 - Count active lights
 - Count active media_players
+- Greeting (to be used with Greeting card above)
 
+
+The count active lights and media_players sensors can be used in a mushroom chip-card:<br>
 ![image](https://github.com/durrav/ha-dashboard/assets/58232568/b392c4bb-43ed-48be-8673-c8f7cddbf5fc)
