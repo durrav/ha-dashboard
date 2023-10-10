@@ -18,8 +18,7 @@ Room card:<br>
 Lock card:<br>
 ![image](https://github.com/durrav/ha-dashboard/assets/58232568/7f6a26e1-4a55-4afb-9581-7ef7172ebdb4)
 
-
-
+<br>
 
 <h2>Template sensors:</h2><br>
 
