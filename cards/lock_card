@@ -1,0 +1,45 @@
+type: custom:mushroom-template-card
+primary: Front door
+entity: lock.example
+secondary: |2-
+          {% if is_state('binary_sensor.ytterdorren', 'on') %}
+            Open
+          {% elif is_state('lock.ytterdorren', 'locked') %}
+            Locked
+          {% elif is_state('lock.ytterdorren', 'unlocking') %}
+            Unlocking
+          {% elif is_state('lock.ytterdorren', 'locking') %}
+            Locking
+          {% else %}
+            Closed
+          {% endif %}
+icon: |2-
+          {% if is_state('binary_sensor.ytterdorren', 'on') %}
+            mdi:door-open
+          {% elif is_state('lock.ytterdorren', 'locked') %}
+            mdi:lock
+          {% elif is_state('lock.ytterdorren', 'unlocking') %}
+            mdi:lock-clock
+          {% elif is_state('lock.ytterdorren', 'locking') %}
+            mdi:lock-clock
+          {% else %}
+            mdi:lock-open
+          {% endif %}
+badge_color: red
+icon_color: |2-
+          {% if is_state('binary_sensor.ytterdorren', 'on') %}
+            red
+          {% elif is_state('lock.ytterdorren', 'locked') %}
+            green
+          {% else %}
+            amber
+          {% endif %}
+tap_action:
+  action: more-info # Change this to 'toggle' if you want to lock and unlock the lock when clicking on the card.
+hold_action:
+  action: more-info
+multiline_secondary: false
+badge_icon: |-
+  {% if states('sensor.door_battery')|float <= 20 %}
+    mdi:battery-20
+  {% endif %}
