@@ -1,0 +1,13 @@
+- platform: template
+  sensors:
+    countlights:
+      friendly_name: "Number of lights turned on"
+      value_template: >
+        {% set lights = [
+          states.light.example1,
+          states.light.example2,
+          states.light.example3,
+          states.light.example4,
+          states.light.example5,
+          ] %}
+        {{ lights | selectattr('state','eq','on') | list | count }}
