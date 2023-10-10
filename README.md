@@ -19,4 +19,8 @@ Lock card:<br>
 ![image](https://github.com/durrav/ha-dashboard/assets/58232568/7f6a26e1-4a55-4afb-9581-7ef7172ebdb4)
 
 <h2>Template sensors:</h2><br>
-![image](https://github.com/durrav/ha-dashboard/assets/58232568/a564837d-90cd-43d4-8771-b800ed352225)
+
+- Count active lights
+- Count active media_players
+
+![image](https://github.com/durrav/ha-dashboard/assets/58232568/b392c4bb-43ed-48be-8673-c8f7cddbf5fc)
