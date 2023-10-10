@@ -13,7 +13,7 @@ You will also need <a href="https://github.com/ofekashery/vertical-stack-in-card
 
 
 Room card:<br>
-![image](https://github.com/durrav/ha-dashboard/assets/58232568/bc4c9241-c287-49bc-8a73-d47d39fe3ebf)
+![image](https://github.com/durrav/ha-dashboard/assets/58232568/f034c55e-8f00-41c4-9556-3d66ebba3e58)
 
 Lock card:<br>
 ![image](https://github.com/durrav/ha-dashboard/assets/58232568/7f6a26e1-4a55-4afb-9581-7ef7172ebdb4)
