@@ -1,0 +1,15 @@
+# This will create a sensor called sensor.greeting.
+
+- platform: template
+  sensors:
+    greeting:
+      value_template: >
+        {% if (states.sensor.time.state >= "00:00") and (states.sensor.time.state < "05:00") %}
+          Good night
+        {% elif (states.sensor.time.state >= "05:00") and (states.sensor.time.state < "12:00") %}
+          Good morning
+        {% elif (states.sensor.time.state >= "12:00") and (states.sensor.time.state < "18:00") %}
+          Good afternoon
+        {% else %}
+          Gopd evening
+        {% endif %}
