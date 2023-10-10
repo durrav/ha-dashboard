@@ -1,6 +1,6 @@
 type: custom:mushroom-template-card
 primary: Front door
-entity: lock.example
+entity: lock.example # Change this to your lock entity.
 secondary: |2-
           {% if is_state('binary_sensor.ytterdorren', 'on') %}
             Open
