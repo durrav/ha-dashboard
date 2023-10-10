@@ -19,7 +19,7 @@ Room card:<br>
 Lock card:<br>
 ![image](https://github.com/durrav/ha-dashboard/assets/58232568/7f6a26e1-4a55-4afb-9581-7ef7172ebdb4)
 
-Vacuuum card:
+Vacuuum card:<br>
 ![image](https://github.com/durrav/ha-dashboard/assets/58232568/75ed1463-f2a4-4251-abbc-8cf545c7a50d)
 
 <br>
