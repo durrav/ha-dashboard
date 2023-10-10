@@ -1,7 +1,7 @@
 # ha-dashboard
 
 Hi and welcome to my Home Assistant Dashboard Github page.<br>
-Here I will be sharing code for my dashboard cards, sensors and other fun stuff.
+Here I will be sharing code for my dashboard cards, template sensors and other fun stuff.
 
 My dashboard is mainly built on <a href="https://github.com/piitaya/lovelace-mushroom">Mushroom cards</a>, so you will need to install that to use the cards.<br>
 You will also need <a href="https://github.com/ofekashery/vertical-stack-in-card">Vertical Stack-in card</a> and <a href="https://github.com/thomasloven/lovelace-card-mod">Card-mod</a>.
