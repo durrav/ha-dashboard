@@ -19,7 +19,7 @@ cards:
       margin-bottom: -30px;
       box-shadow: none;
       }
-      
+
 # Bottom part of the room card. The example contains three entities. You can add or remove according to your needs.
   - type: glance
     show_name: false
