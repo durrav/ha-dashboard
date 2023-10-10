@@ -8,23 +8,25 @@ You will also need <a href="https://github.com/ofekashery/vertical-stack-in-card
 
 <h2>Lovelace cards:</h2><br>
 
-- Room card
-- Lock card
-- Vacuum card
 - Greeting card
+- Lock card
+- Room card
+- Vacuum card
 
 
-Room card:<br>
-![image](https://github.com/durrav/ha-dashboard/assets/58232568/f034c55e-8f00-41c4-9556-3d66ebba3e58)
+Greeting card:<br>
+![image](https://github.com/durrav/ha-dashboard/assets/58232568/1d632b4e-056e-4143-b259-9a0e04bf6bfa)
 
 Lock card:<br>
 ![image](https://github.com/durrav/ha-dashboard/assets/58232568/7f6a26e1-4a55-4afb-9581-7ef7172ebdb4)
 
+Room card:<br>
+![image](https://github.com/durrav/ha-dashboard/assets/58232568/f034c55e-8f00-41c4-9556-3d66ebba3e58)
+
 Vacuuum card:<br>
 ![image](https://github.com/durrav/ha-dashboard/assets/58232568/75ed1463-f2a4-4251-abbc-8cf545c7a50d)
 
-Greeting card:<br>
-![image](https://github.com/durrav/ha-dashboard/assets/58232568/1d632b4e-056e-4143-b259-9a0e04bf6bfa)
+
 
 <br>
 
