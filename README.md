@@ -9,7 +9,8 @@ You will also need <a href="https://github.com/ofekashery/vertical-stack-in-card
 <h2>Included cards:</h2><br>
 
 - Room card
+- Lock card
 
-![image](https://github.com/durrav/ha-dashboard/assets/58232568/c8472b16-d6c2-400e-8e31-f344e09b3ac6)
+![image](https://github.com/durrav/ha-dashboard/assets/58232568/79b6e51d-0b14-4798-88e8-cd94bd988d0b)
 
-
+![image](https://github.com/durrav/ha-dashboard/assets/58232568/f171ae1c-7d82-49a7-9dd3-7cfb466853c5)
