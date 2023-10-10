@@ -1,0 +1,13 @@
+- platform: template
+  sensors:
+    media_players_active:
+      friendly_name: "Number of media players playing right now"
+      value_template: >
+            {% set media_players = [
+              states.media_player.example1,
+              states.media_player.example2,
+              states.media_player.example3,
+              states.media_player.example4,
+              states.media_player.example5,
+              ] %}
+            {{ media_players | selectattr('state','eq','playing') | list | count }}
