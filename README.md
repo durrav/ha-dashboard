@@ -7,4 +7,4 @@ My dashboard is mainly built on <a href="https://github.com/piitaya/lovelace-mus
 You will also need <a href="https://github.com/ofekashery/vertical-stack-in-card">Vertical Stack-in card</a> and <a href="https://github.com/thomasloven/lovelace-card-mod">Card-mod</a>.
 
 <h1>Room card:</h1><br>
-![image](https://github.com/durrav/ha-dashboard/assets/58232568/63502136-a503-4058-9853-6ff8c3d41ed3)
+[image](https://github.com/durrav/ha-dashboard/assets/58232568/63502136-a503-4058-9853-6ff8c3d41ed3)
