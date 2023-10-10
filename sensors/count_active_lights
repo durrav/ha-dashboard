@@ -1,3 +1,5 @@
+# This will create a sensor called sensor.countlights
+
 - platform: template
   sensors:
     countlights:
