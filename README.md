@@ -10,6 +10,7 @@ You will also need <a href="https://github.com/ofekashery/vertical-stack-in-card
 
 - Room card
 - Lock card
+- Vacuum card
 
 
 Room card:<br>
@@ -17,6 +18,9 @@ Room card:<br>
 
 Lock card:<br>
 ![image](https://github.com/durrav/ha-dashboard/assets/58232568/7f6a26e1-4a55-4afb-9581-7ef7172ebdb4)
+
+Vacuuum card:
+![image](https://github.com/durrav/ha-dashboard/assets/58232568/75ed1463-f2a4-4251-abbc-8cf545c7a50d)
 
 <br>
 
