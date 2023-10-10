@@ -1,0 +1,167 @@
+type: custom:vertical-stack-in-card
+cards:
+  - type: custom:mushroom-vacuum-card
+    entity: vacuum.example # Change this to your vacuum entity.
+    commands:
+      - start_pause
+      - stop
+      - return_home
+    icon_animation: true
+    card_mod:
+      style: |
+        ha-card {
+        margin-bottom: 10px;
+        }
+# Change the below entities to match yours
+  - type: grid
+    square: false
+    cards:
+      - type: custom:mushroom-chips-card
+        chips:
+          - type: entity
+            entity: sensor.vacuum_battery
+            tap_action:
+              action: more-info
+            card_mod:
+              style: |
+                ha-card {
+                  --chip-box-shadow: none;
+                  --chip-background: var(--chip-automower-sensors);
+                }
+        alignment: center
+      - type: custom:mushroom-chips-card
+        chips:
+          - type: entity
+            entity: sensor.vacuum_error
+            tap_action:
+              action: more-info
+            card_mod:
+              style: |
+                ha-card {
+                  --chip-box-shadow: none;
+                  --chip-background: var(--chip-automower-sensors);
+                }
+        alignment: center
+      - type: custom:mushroom-chips-card
+        chips:
+          - type: entity
+            entity: binary_sensor.vacuum_water_level
+            tap_action:
+              action: none
+            card_mod:
+              style: |
+                ha-card {
+                  --chip-box-shadow: none;
+                  --chip-background: var(--chip-automower-sensors);
+                }
+        alignment: center
+      - type: custom:mushroom-chips-card
+        chips:
+          - type: entity
+            entity: sensor.vacuum_main_brush
+            tap_action:
+              action: none
+            card_mod:
+              style: |
+                ha-card {
+                  --chip-box-shadow: none;
+                  --chip-background: var(--chip-automower-sensors);
+                }
+        alignment: center
+      - type: custom:mushroom-chips-card
+        chips:
+          - type: entity
+            entity: sensor.vacuum_side_brush
+            tap_action:
+              action: none
+            card_mod:
+              style: |
+                ha-card {
+                  --chip-box-shadow: none;
+                  --chip-background: var(--chip-automower-sensors);
+                }
+        alignment: center
+      - type: custom:mushroom-chips-card
+        chips:
+          - type: entity
+            entity: sensor.vacuum_sensor_clean
+            tap_action:
+              action: none
+            card_mod:
+              style: |
+                ha-card {
+                  --chip-box-shadow: none;
+                  --chip-background: var(--chip-automower-sensors);
+                }
+        alignment: center
+  - type: markdown
+    content: <font size="3px">Zone cleaning</font>
+    card_mod:
+      style: |
+        ha-card {
+        background: none;
+        box-shadow: none;
+        border: none;
+        margin-top: 0px;
+        margin-bottom: -18px;
+        }
+  - type: grid
+    square: false
+    columns: 3
+    cards:
+      - type: custom:mushroom-entity-card
+        entity: script.clean_kitchen
+        icon: mdi:blender
+        secondary_info: none
+        layout: vertical
+        name: Kitchen
+        tap_action:
+          action: toggle
+      - type: custom:mushroom-entity-card
+        entity: script.clean_dinner_table
+        icon: mdi:table-furniture
+        secondary_info: none
+        layout: vertical
+        name: Dinner table
+        tap_action:
+          action: toggle
+      - type: custom:mushroom-entity-card
+        entity: script.clean_living_room
+        layout: vertical
+        name: Living room
+        secondary_info: none
+        icon: mdi:sofa
+        tap_action:
+          action: toggle
+      - type: custom:mushroom-entity-card
+        entity: script.clean_hallway
+        name: Hallway
+        icon: mdi:door
+        secondary_info: none
+        layout: vertical
+        tap_action:
+          action: toggle
+      - type: custom:mushroom-entity-card
+        entity: script.clean_entrance
+        icon: mdi:door
+        secondary_info: none
+        layout: vertical
+        name: Entrance
+        tap_action:
+          action: toggle
+      - type: custom:mushroom-entity-card
+        entity: script.clean_bedroom
+        icon: mdi:bed-king
+        secondary_info: none
+        layout: vertical
+        name: Bedroom
+        tap_action:
+          action: toggle
+      - type: custom:mushroom-entity-card
+        entity: script.vacuum_go_to_trash
+        name: Go to trash
+        icon: mdi:trash-can
+        secondary_info: none
+        layout: vertical
+        tap_action:
+          action: toggle
