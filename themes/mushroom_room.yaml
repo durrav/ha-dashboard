@@ -1,0 +1,6 @@
+mushroom_room:
+  modes:
+    light:
+      state-icon-color: "#CCCCCC"
+    dark:
+      state-icon-color: "#6F6F6F"
