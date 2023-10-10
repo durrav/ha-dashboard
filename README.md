@@ -11,12 +11,12 @@ You will also need <a href="https://github.com/ofekashery/vertical-stack-in-card
 - Room card
 - Lock card
 
+
 Room card:<br>
 ![image](https://github.com/durrav/ha-dashboard/assets/58232568/79b6e51d-0b14-4798-88e8-cd94bd988d0b)
 
 Lock card:<br>
 ![image](https://github.com/durrav/ha-dashboard/assets/58232568/7f6a26e1-4a55-4afb-9581-7ef7172ebdb4)
 
-
 <h2>Template sensors:</h2><br>
-![image](https://github.com/durrav/ha-dashboard/assets/58232568/4f0f19af-4873-4920-863c-c3a0bc5a46c8)
+![image](https://github.com/durrav/ha-dashboard/assets/58232568/a564837d-90cd-43d4-8771-b800ed352225)
