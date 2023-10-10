@@ -10,5 +10,6 @@ You will also need <a href="https://github.com/ofekashery/vertical-stack-in-card
 
 - Room card
 
-![image](https://github.com/durrav/ha-dashboard/assets/58232568/f29a5061-1ba6-426f-8dd7-1248590604af)
+![image](https://github.com/durrav/ha-dashboard/assets/58232568/c8472b16-d6c2-400e-8e31-f344e09b3ac6)
+
 
