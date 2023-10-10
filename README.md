@@ -7,6 +7,7 @@ My dashboard is mainly built on <a href="https://github.com/piitaya/lovelace-mus
 You will also need <a href="https://github.com/ofekashery/vertical-stack-in-card">Vertical Stack-in card</a> and <a href="https://github.com/thomasloven/lovelace-card-mod">Card-mod</a>.
 
 <h2>Lovelace cards:</h2><br>
+
 - Room card
 - Lock card
 
