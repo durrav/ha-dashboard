@@ -1,6 +1,6 @@
 # ha-dashboard
 
-Hi and welcome to my Home Assistant Dashboard Github page.<br>
+Hi and welcome to my Home Assistant Github page.<br>
 Here I will be sharing code for my dashboard cards, template sensors and other fun stuff.
 
 My dashboard is mainly built on <a href="https://github.com/piitaya/lovelace-mushroom">Mushroom cards</a>, so you will need to install that to use the cards.<br>
