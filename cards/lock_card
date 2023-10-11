@@ -14,22 +14,22 @@ secondary: |2-
             Closed
           {% endif %}
 icon: |2-
-          {% if is_state('binary_sensor.ytterdorren', 'on') %}
+          {% if is_state('binary_sensor.front_door_open', 'on') %}
             mdi:door-open
-          {% elif is_state('lock.ytterdorren', 'locked') %}
+          {% elif is_state('lock.example', 'locked') %}
             mdi:lock
-          {% elif is_state('lock.ytterdorren', 'unlocking') %}
+          {% elif is_state('lock.example', 'unlocking') %}
             mdi:lock-clock
-          {% elif is_state('lock.ytterdorren', 'locking') %}
+          {% elif is_state('lock.example', 'locking') %}
             mdi:lock-clock
           {% else %}
             mdi:lock-open
           {% endif %}
 badge_color: red
 icon_color: |2-
-          {% if is_state('binary_sensor.ytterdorren', 'on') %}
+          {% if is_state('binary_sensor.front_door_open', 'on') %}
             red
-          {% elif is_state('lock.ytterdorren', 'locked') %}
+          {% elif is_state('lock.example', 'locked') %}
             green
           {% else %}
             amber
