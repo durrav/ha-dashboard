@@ -26,7 +26,7 @@ cards:
               style: |
                 ha-card {
                   --chip-box-shadow: none;
-                  --chip-background: var(--chip-automower-sensors);
+                  --chip-background: var(--chip-vacuum-sensors);
                 }
         alignment: center
       - type: custom:mushroom-chips-card
@@ -39,7 +39,7 @@ cards:
               style: |
                 ha-card {
                   --chip-box-shadow: none;
-                  --chip-background: var(--chip-automower-sensors);
+                  --chip-background: var(--chip-vacuum-sensors);
                 }
         alignment: center
       - type: custom:mushroom-chips-card
@@ -52,7 +52,7 @@ cards:
               style: |
                 ha-card {
                   --chip-box-shadow: none;
-                  --chip-background: var(--chip-automower-sensors);
+                  --chip-background: var(--chip-vacuum-sensors);
                 }
         alignment: center
       - type: custom:mushroom-chips-card
@@ -65,7 +65,7 @@ cards:
               style: |
                 ha-card {
                   --chip-box-shadow: none;
-                  --chip-background: var(--chip-automower-sensors);
+                  --chip-background: var(--chip-vacuum-sensors);
                 }
         alignment: center
       - type: custom:mushroom-chips-card
@@ -78,7 +78,7 @@ cards:
               style: |
                 ha-card {
                   --chip-box-shadow: none;
-                  --chip-background: var(--chip-automower-sensors);
+                  --chip-background: var(--chip-vacuum-sensors);
                 }
         alignment: center
       - type: custom:mushroom-chips-card
@@ -91,7 +91,7 @@ cards:
               style: |
                 ha-card {
                   --chip-box-shadow: none;
-                  --chip-background: var(--chip-automower-sensors);
+                  --chip-background: var(--chip-vacuum-sensors);
                 }
         alignment: center
   - type: markdown
