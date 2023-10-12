@@ -41,6 +41,7 @@ Combine the above markdown card with a normal entities card and put one input_te
 - Count active lights
 - Count active media_players
 - Greeting (to be used with Greeting card above)
+- Today/Tomorrow (to be used with the What's for dinner card above)
 
 
 The count active lights and media_players sensors can be used in a mushroom chip-card:<br>
