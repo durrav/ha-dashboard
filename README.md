@@ -1,5 +1,5 @@
 # ha-dashboard
-![image](https://github.com/durrav/ha-dashboard/assets/58232568/f9cb31c7-9603-4157-b520-dd4fb961c4ae)
+![image](https://github.com/durrav/ha-dashboard/assets/58232568/71214a4c-7da8-45aa-931e-e1b04a735979)
 
 <h4>Hi and welcome to my Home Assistant Github page.<br>
 Here I will be sharing code for my dashboard cards, template sensors and other fun stuff.
