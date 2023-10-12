@@ -3,7 +3,7 @@
 
 <h4>Hi and welcome to my Home Assistant Github page.<br>
 Here I will be sharing code for my dashboard cards, template sensors and other fun stuff.
-<br>
+<br><br>
 My dashboard is mainly built on <a href="https://github.com/piitaya/lovelace-mushroom">Mushroom cards</a>, so you will need to install that to use the cards.<br>
 You will also need <a href="https://github.com/ofekashery/vertical-stack-in-card">Vertical Stack-in card</a> and <a href="https://github.com/thomasloven/lovelace-card-mod">Card-mod</a>.</h4>
 
