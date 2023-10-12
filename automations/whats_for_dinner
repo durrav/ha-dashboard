@@ -1,0 +1,18 @@
+trigger:
+  - platform: time
+    at: "19:00:00" # Match this time with the start time in your sensor.today_tomorrow
+condition:
+  - condition: time
+    weekday:
+      - tue
+action:
+  - service: input_boolean.turn_off
+    data: {}
+    target:
+      entity_id: input_boolean.dinner_monday
+  - service: input_boolean.turn_on
+    data: {}
+    target:
+      entity_id: input_boolean.dinner_tuesday
+
+# Repeat this automation for each day of the week.
