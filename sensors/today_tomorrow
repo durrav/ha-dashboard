@@ -1,0 +1,11 @@
+# This will create a sensor called sensor.today_tomorrow
+
+- platform: template
+  sensors:
+    today_tomorrow:
+      value_template: >
+        {% if (states.sensor.time.state >= "02:00") and (states.sensor.time.state < "19:00") %} # Change these times to fit your needs.
+          Idag
+        {% else %}
+          Imorgon
+        {% endif %}
