@@ -1,0 +1,9 @@
+type: markdown
+content: >-
+  {% if is_state('input_boolean.dinner_monday, 'on') %} {{  states('sensor.today_tomorrow) }} we’re having {{  states('input_text.dinner_monday') }} for dinner. {% else %}{% endif %}
+  {% if is_state('input_boolean.dinner_tuesday, 'on') %} {{  states('sensor.today_tomorrow) }} we’re having {{  states('input_text.dinner_tuesday) }} for dinner. {% else %}{% endif %}
+  {% if is_state('input_boolean.dinner_wednesday, 'on') %} {{  states('sensor.today_tomorrow) }} we’re having {{  states('input_text.dinner_wednesday) }} for dinner. {% else %}{% endif %}
+  {% if is_state('input_boolean.dinner_thursday, 'on') %} {{  states('sensor.today_tomorrow) }} we’re having {{  states('input_text.dinner_thursday') }} for dinner. {% else %}{% endif %}
+  {% if is_state('input_boolean.dinner_friday, 'on') %} {{  states('sensor.toda_tomorrow) }} we’re having {{  states('input_textdinner_friday’) }} for dinner. {% else %}{% endif %}
+  {% if is_state('input_boolean.dinner_saturday, 'on') %} {{  states('sensor.today’_tomorrow) }} we’re having {{  states('input_text.dinner_saturday) }} for dinner. {% else %}{% endif %}
+  {% if is_state('input_boolean.dinner_sunday’, 'on') %} {{  states('sensor.today_tomorrow) }} we’re having {{  states('input_text.dinner_sunday’) }} for dinner. {% else %}{% endif %}
