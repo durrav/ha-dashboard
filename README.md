@@ -1,6 +1,7 @@
 # ha-dashboard
+![image](https://github.com/durrav/ha-dashboard/assets/58232568/f9cb31c7-9603-4157-b520-dd4fb961c4ae)
 
-Hi and welcome to my Home Assistant Github page.<br>
+<h3>Hi and welcome to my Home Assistant Github page.<br>
 Here I will be sharing code for my dashboard cards, template sensors and other fun stuff.
 
 My dashboard is mainly built on <a href="https://github.com/piitaya/lovelace-mushroom">Mushroom cards</a>, so you will need to install that to use the cards.<br>
@@ -13,7 +14,7 @@ You will also need <a href="https://github.com/ofekashery/vertical-stack-in-card
 - Room card
 - Vacuum card
 - Markdown card: What's for dinner (combine with input_text helpers and a normal entities card)
-
+</h3>
 
 Greeting card:<br>
 ![image](https://github.com/durrav/ha-dashboard/assets/58232568/1d632b4e-056e-4143-b259-9a0e04bf6bfa)
