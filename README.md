@@ -12,7 +12,7 @@ You will also need <a href="https://github.com/ofekashery/vertical-stack-in-card
 - Lock card
 - Room card
 - Vacuum card
-- What's for dinner (combine with input_text helpers and a normal entities card)
+- Markdown card: What's for dinner (combine with input_text helpers and a normal entities card)
 
 
 Greeting card:<br>
