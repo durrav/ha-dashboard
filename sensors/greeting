@@ -11,5 +11,5 @@
         {% elif (states.sensor.time.state >= "12:00") and (states.sensor.time.state < "18:00") %}
           Good afternoon
         {% else %}
-          Gopd evening
+          Good evening
         {% endif %}
