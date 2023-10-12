@@ -12,6 +12,7 @@ You will also need <a href="https://github.com/ofekashery/vertical-stack-in-card
 - Lock card
 - Room card
 - Vacuum card
+- What's for dinner (combine with input_text helpers and a normal entities card)
 
 
 Greeting card:<br>
@@ -26,6 +27,11 @@ Room card:<br>
 Vacuuum card:<br>
 ![image](https://github.com/durrav/ha-dashboard/assets/58232568/75ed1463-f2a4-4251-abbc-8cf545c7a50d)
 
+What's for dinner markdown card:<br>
+![image](https://github.com/durrav/ha-dashboard/assets/58232568/07bec645-a724-4d8e-899f-7887130d04b3)
+
+Combine the above markdown card with a normal entities card and put one input_text helper for each day:<br>
+![image](https://github.com/durrav/ha-dashboard/assets/58232568/8920d253-819e-4227-b356-1462984a3ae9)
 
 
 <br>
