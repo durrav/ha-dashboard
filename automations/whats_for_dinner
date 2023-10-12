@@ -1,3 +1,5 @@
+# Before creating this automation, create one input_boolean helper for each day, as referred to in this example.
+
 trigger:
   - platform: time
     at: "19:00:00" # Match this time with the start time in your sensor.today_tomorrow
