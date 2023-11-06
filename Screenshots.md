@@ -9,3 +9,11 @@
 <h2>Light view</h2><br>
 
 ![image](https://github.com/durrav/ha-dashboard/assets/58232568/6b0bb376-d75b-467d-a32e-179211a5e247)
+
+<h2>Temperature view</h2><br>
+
+![image](https://github.com/durrav/ha-dashboard/assets/58232568/65cbc932-e92e-4b31-af81-7a70755bded3)
+
+<h2>Energy view</h2><br>
+
+![image](https://github.com/durrav/ha-dashboard/assets/58232568/7c6d2ccd-e250-46ed-aa2a-e866f10b7c84)
