@@ -12,3 +12,5 @@
 
 <h2>Light view</h2><br>
 ![image](https://github.com/durrav/ha-dashboard/assets/58232568/858b5d88-c567-4972-b551-918eed590a18)
+
+![image](https://github.com/durrav/ha-dashboard/assets/58232568/e92283c1-5ee6-49d5-9ea5-0c7c5136afa3)
